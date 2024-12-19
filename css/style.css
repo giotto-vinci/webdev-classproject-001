@@ -61,10 +61,10 @@ hr {
 }
 
 .container {
-  padding: 0;
+  padding: 2rem;
   margin: 0 auto;
   width: 100%;
-  border: 2px solid black;
+  border: 2px solid white;
   max-width: 1000px;
 }
 
@@ -72,9 +72,13 @@ hr {
 }
 
 .quote {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .author {
+  font-style: italic;
 }
 
 /* Media Queries */
