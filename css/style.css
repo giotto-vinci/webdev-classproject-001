@@ -61,19 +61,30 @@ hr {
 }
 
 .container {
-  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
   margin: 0 auto;
   width: 100%;
-  border: 4px solid white;
   max-width: 1000px;
-  background-color: bisque;
+  background-color: rgb(38, 38, 39);
+  height: 100%;
+  width: 100%;
 }
 
 .quote-card {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  flex-basis: 2;
   align-items: center;
   justify-content: center;
+  padding: 4rem;
+  margin: 0 auto;
+  background-color: bisque;
+  border: 4px solid white;
 }
 
 .quote {
