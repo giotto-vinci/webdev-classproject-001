@@ -27,7 +27,7 @@ h6 {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0 0 1.6rem;
 }
@@ -53,31 +53,55 @@ hr {
 .main {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  margin: 0;
   background-color: rgb(38, 38, 39);
   width: 100%;
   height: 100vh;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  flex-basis: 20%; /* initial width */
+  flex-shrink: 1; /* shrink factor */
   margin: 0 auto;
-  width: 100%;
-  max-width: 1000px;
+  padding: 1rem;
+  width: auto;
   background-image: url(https://raw.githubusercontent.com/giotto-vinci/webdev-classproject-001/refs/heads/main/img/carbon-fiber-11gbag3a3s3o1b3f.webp);
 }
 
+/*
+
+background-color: rgb(38, 38, 39);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+flex-grow: 0;
+flex-shrink: 1;
+
+position: relative;
+*/
+
+/*
+position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 4rem;
+  max-width: 600px;
+  max-height: 500px;
+  */
+
 .quote-card {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  padding: 1px;
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+  max-height: 100%;
   padding: 4rem;
   margin: 0 auto;
   background-color: bisque;
@@ -85,15 +109,13 @@ hr {
 }
 
 .quote {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
   font-weight: bold;
 }
 
 .author {
   font-size: 16px;
   font-style: italic;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* Media Queries */
