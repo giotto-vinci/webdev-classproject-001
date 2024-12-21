@@ -69,16 +69,13 @@ hr {
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
-  background-color: rgb(38, 38, 39);
-  height: 100%;
-  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/giotto-vinci/webdev-classproject-001/refs/heads/main/img/carbon-fiber-11gbag3a3s3o1b3f.webp);
 }
 
 .quote-card {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  flex-basis: 2;
   align-items: center;
   justify-content: center;
   padding: 4rem;
