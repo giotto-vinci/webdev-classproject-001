@@ -29,9 +29,19 @@ To view the project locally, you can either open the project files in your code 
 
 Please refer to `mockup.jpg` in the repository.
 
+<<<<<<< HEAD
 - [x] Build site to the `mockup.jpg`.
 - [x] Find and replace the quote in `index.html`
+=======
+**GOAL** Build site to the `mockup.jpg` during class.
+
+Task 001:
+
+- [ ] Find and replace the quote in `index.html`
+>>>>>>> 269bbeac9a045d5b96ea9d548cbe6983887483fa
 
 ### Submitting Your Work
 
 After completing the task, be sure to commit your changes and push them back to your own forked repository and turn in the GitHub link in Google Classroom.
+
+Hello!
