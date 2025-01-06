@@ -37,7 +37,7 @@ Please refer to `mockup.jpg` in the repository.
 
 Task 001:
 
-- [ ] Find and replace the quote in `index.html`
+- [x] Find and replace the quote in `index.html`
 >>>>>>> 269bbeac9a045d5b96ea9d548cbe6983887483fa
 
 ### Submitting Your Work
